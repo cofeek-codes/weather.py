@@ -1,6 +1,8 @@
+# Погода v 2.0
 from pyowm import OWM
 from pywebio.input import *
 from pywebio.output import *
+
 
 owm = OWM('aed1407ec32905a7a44f60f4cc6290f6')
 # API = 'aed1407ec32905a7a44f60f4cc6290f6'
