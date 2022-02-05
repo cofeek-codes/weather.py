@@ -39,8 +39,7 @@ put_text(wind)
 cloudy_path = open('./img/cloudy.png', 'rb').read()
 rain_path = open('./img/rain.png', 'rb').read()
 sun_path = open('./img/sun.png', 'rb').read()
-rain_image = put_image(rain_path, height='50px', width='50px')
-sun_image = put_image(sun_path, height='50px', width='50px')
+
 if get__rain:
     put_image(rain_path, height='50px', width='50px'), put_text(rain)
 
