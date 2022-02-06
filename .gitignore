@@ -1,2 +1,6 @@
 .idea/
 weather.py
+include/
+Lib/
+Scripts/
+pyvenv.cfg
