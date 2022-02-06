@@ -47,3 +47,4 @@ if rain == 'Дождя нет':
 
 else:
     put_image(rain_path, height='50px', width='50px'), put_text(rain)
+# comment
