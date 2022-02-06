@@ -42,8 +42,8 @@ cloudy_path = open('./img/cloudy.png', 'rb').read()
 rain_path = open('./img/rain.png', 'rb').read()
 sun_path = open('./img/sun.png', 'rb').read()
 
-if get__rain:
-    put_image(rain_path, height='50px', width='50px'), put_text(rain)
+if rain == 'Дождя нет':
+    put_image(sun_path, height='50px', width='50px'), put_text(rain)
 
 else:
-    put_image(sun_path, height='50px', width='50px'), put_text(rain)
+    put_image(rain_path, height='50px', width='50px'), put_text(rain)
